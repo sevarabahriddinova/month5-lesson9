@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+}
+a{
+    font-family: "Kalnia Glaze", serif;
+    text-decoration:none;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.loader span{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #001f3f;
+    font-weight:bold;
+    animation: animate 5s ease-in-out infinite;
+}
+
+.loader span:nth-child(1){
+ animation-delay:0.8s;
+}
+.loader span:nth-child(2){
+ animation-delay:1s;
+}
+.loader span:nth-child(3){
+ animation-delay:1.2s;
+}
+.loader span:nth-child(4){
+ animation-delay:1.4s;
+}
+.loader span:nth-child(5){
+ animation-delay:1.6s;
+}
+.loader span:nth-child(6){
+ animation-delay:1.8s;
+}
+.loader span:nth-child(7){
+ animation-delay:2s;
+}
+.loader span:nth-child(8){
+ animation-delay:1.2s;
+}
+.loader span:nth-child(9){
+ animation-delay:2s;
+}
+.loader span:nth-child(9){
+ animation-delay:2.2s;
+}
+
+@keyframes animate{
+    10%{color:#ffdc00}
+    20%{color:#01ff70}
+    30%{color:#f012be}
+    40%{color:#0074D9}
+    50%{color:#7fdbff}
+    60%{color:#85144b}
+    70%{color:#ff851b}
+    80%{color:#2ecc40}
+    90%{color:#ff4136}
+    100%{color:#00ff9d}
+}
